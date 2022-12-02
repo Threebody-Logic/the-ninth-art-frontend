@@ -1,0 +1,69 @@
+.menu :global(.anticon) {
+  margin-right: 8px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.right .action {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.right .action > span {
+  vertical-align: middle;
+}
+
+.right .action:hover {
+  background: rgb(0 0 0 / 2.5%);
+}
+
+.right .action:global(.opened) {
+  background: rgb(0 0 0 / 2.5%);
+}
+
+.right .search {
+  padding: 0 12px;
+}
+
+.right .search:hover {
+  background: transparent;
+}
+
+.right .account .avatar {
+  vertical-align: top;
+  background: rgb(255 255 255 / 85%);
+}
+
+.dark .action {
+  color: rgb(255 255 255 / 85%);
+}
+
+.dark .action > span {
+  color: rgb(255 255 255 / 85%);
+}
+
+:global(.ant-dropdown-menu-item) {
+  padding: 12px;
+}
+
+:global(.ant-pro-global-header) .dark .action:hover {
+  color: rgb(255 255 255 / 85%);
+}
+
+:global(.ant-pro-global-header) .dark .action:hover > span {
+  color: rgb(255 255 255 / 85%);
+}
+
+.container > * {
+  border-radius: 4px;
+}
